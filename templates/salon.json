@@ -1,0 +1,160 @@
+{
+  "niche": "salon",
+  "token": "ВСТАВТЕ_ТОКЕН_ВІД_BOTFATHER",
+  "business": "Назва салону",
+  "timezone": "Europe/Kyiv",
+  "admin_ids": [],
+  "greeting": "<b>Назва салону</b>\n\nЗапис онлайн — оберіть послугу, майстриню й зручний час.",
+  "contacts": "<b>Контакти</b>\n\nАдреса\n+380 (00) 000-00-00\n\nПн—Сб 9:00—20:00",
+  "workdays": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "work_start": "09:00",
+  "work_end": "20:00",
+  "slot_minutes": 30,
+  "days_ahead": 60,
+  "min_lead_minutes": 120,
+  "services": [
+    {
+      "id": "manikur",
+      "name": "Манікюр з покриттям",
+      "duration": 120
+    },
+    {
+      "id": "pedikur",
+      "name": "Педикюр",
+      "duration": 90
+    },
+    {
+      "id": "brovy",
+      "name": "Корекція брів",
+      "duration": 30
+    },
+    {
+      "id": "vii",
+      "name": "Нарощення вій",
+      "duration": 150
+    },
+    {
+      "id": "strizhka",
+      "name": "Жіноча стрижка",
+      "duration": 60
+    },
+    {
+      "id": "farbuvannya",
+      "name": "Фарбування",
+      "duration": 180,
+      "note": "Точна ціна залежить від довжини"
+    }
+  ],
+  "masters": [
+    {
+      "id": "majstrynia1",
+      "name": "Імʼя",
+      "role": "Майстриня манікюру",
+      "about": "Кілька слів про досвід.",
+      "photo": "photos/majstrynia1.jpg",
+      "workdays": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "work_start": "09:00",
+      "work_end": "18:00",
+      "days_off": [],
+      "services": {
+        "manikur": "700 ₴",
+        "pedikur": "900 ₴"
+      }
+    },
+    {
+      "id": "majstrynia2",
+      "name": "Імʼя",
+      "role": "Перукарка-стиліст",
+      "about": "Кілька слів про досвід.",
+      "photo": "photos/majstrynia2.jpg",
+      "workdays": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "work_start": "11:00",
+      "work_end": "20:00",
+      "days_off": [],
+      "services": {
+        "strizhka": "600 ₴",
+        "farbuvannya": "1 800 ₴"
+      }
+    },
+    {
+      "id": "majstrynia3",
+      "name": "Імʼя",
+      "role": "Брову-майстриня",
+      "about": "Кілька слів про досвід.",
+      "photo": "photos/majstrynia3.jpg",
+      "workdays": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "work_start": "10:00",
+      "work_end": "19:00",
+      "days_off": [],
+      "services": {
+        "brovy": "400 ₴",
+        "vii": "1 200 ₴"
+      }
+    }
+  ],
+  "time_note": "Час орієнтовний: залежить від довжини волосся та обраного покриття.",
+  "payment": {
+    "mode": "off",
+    "deposit": {
+      "type": "fixed",
+      "amount": 300
+    },
+    "currency": "UAH",
+    "provider_token": "",
+    "link": "",
+    "requisites": "",
+    "note": "Час тримається за вами після передоплати. Решту платите на місці.",
+    "card": "",
+    "card_holder": "",
+    "link_amount_param": ""
+  },
+  "reminders": {
+    "enabled": true,
+    "before": [
+      1440,
+      60
+    ]
+  },
+  "sheet_webhook": "",
+  "sheet_secret": "",
+  "feedback": {
+    "enabled": true,
+    "after_hours": 3,
+    "link": "",
+    "link_label": "Google Maps"
+  },
+  "winback": {
+    "enabled": false,
+    "after_days": 90,
+    "cooldown_days": 90,
+    "text": "давно вас не бачили. Запис відкритий — можна обрати час просто тут."
+  },
+  "miniapp_url": "",
+  "miniapp_link": "",
+  "loyalty": {
+    "repeat_discount": 10
+  }
+}

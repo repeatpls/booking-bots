@@ -1,0 +1,186 @@
+{
+  "niche": "tattoo",
+  "token": "ВСТАВТЕ_ТОКЕН_ВІД_BOTFATHER",
+  "business": "Назва тату-студії",
+  "timezone": "Europe/Kyiv",
+  "admin_ids": [],
+  "greeting": "<b>Назва тату-студії</b>\n\nЗапис на консультацію та сеанс. Оберіть майстра за стилем — у кожного своя манера й свій графік.\n\nСеанс бронюється передоплатою, деталі майстер проговорює на консультації.",
+  "contacts": "<b>Студія</b>\n\nАдреса\n+380 (00) 000-00-00\n\nЩодня 12:00—21:00\nПрацюємо за попереднім записом",
+  "workdays": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "work_start": "12:00",
+  "work_end": "21:00",
+  "slot_minutes": 60,
+  "days_ahead": 60,
+  "min_lead_minutes": 240,
+  "services": [
+    {
+      "id": "konsultaciya",
+      "name": "Консультація",
+      "duration": 60,
+      "note": "Обговорюємо ідею, місце й розмір. Ескіз готуємо окремо"
+    },
+    {
+      "id": "male",
+      "name": "Маленьке тату",
+      "duration": 120,
+      "note": "До 10 см, один сеанс"
+    },
+    {
+      "id": "serednie",
+      "name": "Середнє тату",
+      "duration": 240,
+      "note": "Один сеанс, іноді потрібен другий"
+    },
+    {
+      "id": "velyke",
+      "name": "Великий сеанс",
+      "duration": 480,
+      "note": "Повний день, з перервами"
+    },
+    {
+      "id": "perekryttya",
+      "name": "Перекриття",
+      "duration": 240,
+      "note": "Перекриття старого тату, тільки після консультації з фото"
+    },
+    {
+      "id": "korekciya",
+      "name": "Корекція",
+      "duration": 60,
+      "note": "Власної роботи протягом трьох місяців — безкоштовно"
+    }
+  ],
+  "masters": [
+    {
+      "id": "majster1",
+      "name": "Імʼя",
+      "role": "реалізм",
+      "about": "Засновник студії. Чотирнадцять років у тату, із них девʼять — великі проєкти: рукави, спини, перекриття складних робіт. Чорно-сірий реалізм, портрети, анімалістика.",
+      "workdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "work_start": "12:00",
+      "work_end": "21:00",
+      "days_off": [],
+      "services": {
+        "konsultaciya": "безкоштовно",
+        "male": "від 3 000 ₴",
+        "serednie": "від 6 000 ₴",
+        "velyke": "від 12 000 ₴",
+        "perekryttya": "від 7 000 ₴",
+        "korekciya": "безкоштовно"
+      },
+      "photos": [
+        "photos/majster1.jpg",
+        "photos/majster1_roboty.jpg"
+      ]
+    },
+    {
+      "id": "majster2",
+      "name": "Імʼя",
+      "role": "олдскул",
+      "about": "Резидент студії. Сім років за машинкою. Традишнл і неотрадишнл: щільний контур, насичений колір, класичні сюжети.",
+      "workdays": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "work_start": "13:00",
+      "work_end": "21:00",
+      "days_off": [],
+      "services": {
+        "konsultaciya": "безкоштовно",
+        "male": "від 2 500 ₴",
+        "serednie": "від 5 000 ₴",
+        "velyke": "від 10 000 ₴",
+        "korekciya": "безкоштовно"
+      },
+      "photos": [
+        "photos/majster2.jpg",
+        "photos/majster2_roboty.jpg"
+      ]
+    },
+    {
+      "id": "majster3",
+      "name": "Імʼя",
+      "role": "графіка",
+      "about": "Молодша майстриня. Три роки практики. Fine line, мінімалізм, дрібна графіка й леттерінг. Багато працює з першими татуюваннями.",
+      "workdays": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "work_start": "12:00",
+      "work_end": "20:00",
+      "days_off": [],
+      "services": {
+        "konsultaciya": "безкоштовно",
+        "male": "від 2 000 ₴",
+        "serednie": "від 4 500 ₴",
+        "korekciya": "безкоштовно"
+      },
+      "photos": [
+        "photos/majster3.jpg",
+        "photos/majster3_roboty.jpg"
+      ]
+    }
+  ],
+  "time_note": "Час приблизний: усе залежить від складності ескізу та місця. Точніше скаже майстер на консультації.",
+  "payment": {
+    "mode": "off",
+    "deposit": {
+      "type": "percent",
+      "value": 30,
+      "round_to": 50
+    },
+    "currency": "UAH",
+    "provider_token": "",
+    "link": "",
+    "requisites": "",
+    "note": "Час тримається за вами після передоплати. Решту платите на місці.",
+    "card": "",
+    "card_holder": "",
+    "link_amount_param": ""
+  },
+  "reminders": {
+    "enabled": true,
+    "before": [
+      1440,
+      60
+    ]
+  },
+  "sheet_webhook": "",
+  "sheet_secret": "",
+  "feedback": {
+    "enabled": true,
+    "after_hours": 3,
+    "link": "",
+    "link_label": "Google Maps"
+  },
+  "winback": {
+    "enabled": false,
+    "after_days": 90,
+    "cooldown_days": 90,
+    "text": "давно вас не бачили. Запис відкритий — можна обрати час просто тут."
+  },
+  "miniapp_url": "",
+  "miniapp_link": "",
+  "loyalty": {
+    "repeat_discount": 10
+  }
+}
