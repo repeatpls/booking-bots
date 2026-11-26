@@ -10,6 +10,7 @@ codebase serves several venues at once: each gets its own bot, services, staff,
 prices and client database.*
 
 Два працюючі боти, які можна відкрити й записатися просто зараз:
+
 *Two live bots you can open and book in right now:*
 
 - [@lids_for_business_bot](https://t.me/lids_for_business_bot) — барбершоп · *barbershop*
